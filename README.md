@@ -1,68 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About the clock
 
-## Available Scripts
+- It syncs with the system clock and ticks every second.
+- It converts the current time to an object specifying how to read it out in standard english.
+- It highlights the relevant phrases from a list of words that would combine to read out the current time.
+- It speaks the what time it is, every 15 minutes.
+- It is animated.
 
-In the project directory, you can run:
+## Here are a few examples where the time is given in 24 hours format along with the way these are read
 
-### `npm start`
+00:00 - It's midnight
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+00:05 - It's five past midnight
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+00:10 - It's ten past midnight
 
-### `npm test`
+01:00 - It's one O'clock in the morning
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+01:15 - It's quarter past one in the morning
 
-### `npm run build`
+13:30 - It's half past one in the afternoon
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+11:45 - It's quarter to noon
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+17:55 - It's five to six in the afternoon
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+20:25 - It's twenty five past eight in the evening
 
-### `npm run eject`
+20:26 - It's about twenty five past eight in the evening
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+20:24 - It's nearly twenty five past eight in the evening
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+... and so on

@@ -1,5 +1,5 @@
 export const phrases = [
-  "IT IS",
+  "NOW IT IS",
   "ABOUT",
   "NEARLY",
   "TEN",

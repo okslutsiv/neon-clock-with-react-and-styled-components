@@ -3,7 +3,7 @@
 - It syncs with the system clock and ticks every second.
 - It converts the current time to an object specifying how to read it out in standard english.
 - It highlights the relevant phrases from a list of words that would combine to read out the current time.
-- It speaks the what time it is, every 15 minutes.
+- It can speak the current time every 15 minutes using Web Speech API.
 - It is animated.
 
 ## Here are a few examples where the time is given in 24 hours format along with the way these are read

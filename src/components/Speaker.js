@@ -12,7 +12,7 @@ const Speaker = ({ switchSpeaker, activeSpeaker, time, timeText }) => {
     activeSpeaker && time.seconds === 0 && time.minutes % 15 === 0;
   const talk = text => {
     const synth = window.speechSynthesis;
-    const rate = 0.7;
+    const rate = 1.1;
     const pitch = 0.8;
     const voice = synth.getVoices().filter(v => v.lang === "en-GB")[0];
     const utterance = new SpeechSynthesisUtterance(text);
@@ -55,7 +55,13 @@ const Speaker = ({ switchSpeaker, activeSpeaker, time, timeText }) => {
           />
         </g>
       </SvgIcon>
-      <Btn onClick={switchSpeaker} className={activeSpeaker ? "active" : ""}>
+      <Btn
+        onClick={switchSpeaker}
+        className={activeSpeaker ? "active" : ""}
+        title={
+          activeSpeaker ? "mute speaker" : "tell me the time every 15 minutes"
+        }
+      >
         <div style={{ right: activeSpeaker ? "-2px" : "22px" }}></div>
       </Btn>
     </Switcher>
@@ -76,7 +82,7 @@ const SvgIcon = styled.svg`
 `;
 
 const Switcher = styled.div`
-  position: fixed;
+  position: absolute;
   top: 32px;
   right: 32px;
   display: flex;

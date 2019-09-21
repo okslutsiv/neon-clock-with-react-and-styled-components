@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/neon-clock-with-react-and-styled-components/precache-manifest.972c58bd273ef8078425c28f1180ce1e.js"
+  "/neon-clock-with-react-and-styled-components/precache-manifest.6c84c66ccf69fd35b36c914a3777b643.js"
 );
 
 self.addEventListener('message', (event) => {

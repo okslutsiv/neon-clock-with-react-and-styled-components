@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/neon-clock-with-react-and-styled-components/static/js/main.fa038dbf.chunk.js",
+    "main.js.map": "/neon-clock-with-react-and-styled-components/static/js/main.fa038dbf.chunk.js.map",
+    "runtime~main.js": "/neon-clock-with-react-and-styled-components/static/js/runtime~main.ea4eb42f.js",
+    "runtime~main.js.map": "/neon-clock-with-react-and-styled-components/static/js/runtime~main.ea4eb42f.js.map",
+    "static/js/2.39d84ce4.chunk.js": "/neon-clock-with-react-and-styled-components/static/js/2.39d84ce4.chunk.js",
+    "static/js/2.39d84ce4.chunk.js.map": "/neon-clock-with-react-and-styled-components/static/js/2.39d84ce4.chunk.js.map",
+    "index.html": "/neon-clock-with-react-and-styled-components/index.html",
+    "precache-manifest.972c58bd273ef8078425c28f1180ce1e.js": "/neon-clock-with-react-and-styled-components/precache-manifest.972c58bd273ef8078425c28f1180ce1e.js",
+    "service-worker.js": "/neon-clock-with-react-and-styled-components/service-worker.js"
+  }
+}

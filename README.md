@@ -31,4 +31,4 @@
 20:24 - It's nearly twenty five past eight in the evening
 
 ... and so on
-![screenshot](/screenshot.png)
+![screenshot](/screenshot.gif)
